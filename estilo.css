@@ -1,0 +1,25 @@
+body {
+
+    font-size: 90px;
+    color: red;
+    background: rgb(55, 0, 255);
+    font-family: Chandas;
+
+}
+p {
+    color: rgb(0, 255, 200);
+    font-size: 40px;
+    font-family: Arial;
+}
+
+.novo {
+
+    font-size: 90px;
+    color: rgb(251, 255, 0);
+}
+
+.img {
+    width: 1280px;
+    height: 720px;
+    border: 10px solid white;
+}
