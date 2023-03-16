@@ -1,0 +1,38 @@
+body {
+    background-color: green;
+}
+#imagemprincipal {
+
+        width: 1280px;
+        height: 600px;
+        border: 6pt solid greenyellow;
+        margin: 0pt;
+        text-align: center;
+    }
+
+    #conteudoprincipal {
+        width: 1280px;
+        height: 600px;
+        padding: 0pt;
+        margin: 0pt;
+    }
+    .loja {
+
+        font-style: italic;
+        color: rgb(15, 228, 7);
+        background-color: white;
+        font-size: 40pt;
+    }
+
+    h1 {
+        font: italic;
+        color: yellow;
+        background-color: violet;
+        text-align: center;
+    }
+    
+    .banner {
+
+        width: 1280px;
+        
+    }
