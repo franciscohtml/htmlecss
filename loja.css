@@ -33,6 +33,37 @@ body {
     
     .banner {
 
-        width: 1280px;
+        width: 430px;
+
+        height: 300px;
+        float: left;
+        padding: 2px;
+        margin: 1px;
         
+    }
+
+    #conteúdo {
+
+        width: 430px;
+
+        height: 300px;
+        float: left;
+        padding: 2px;
+        margin: 1px;
+    }
+
+    #conteudo1 {
+
+        width: 430px;
+
+        height: 300px;
+        float: left;
+        padding: 2px;
+        margin: 1px;
+    }
+
+    #conteudo-rodape {
+
+        width: 1200px;
+        background: lightcyan;
     }
