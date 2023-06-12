@@ -1,47 +1,43 @@
-body {
+body{
     margin: 0;
     padding: 0;
     height: 100vh;
-    width:  100vh;
-    background: linear-gradient(50deg, rgb(11, 150, 11) 1%,rgb(0, 61, 8) 69%);
+    width: 100vw;
+    background: linear-gradient(72deg, #00ff2a 1%,#005304 99%);
 }
 
-.content {
+.content{
     height: 520px;
     width: 935px;
     border-radius: 20px;
     overflow: hidden;
     position: absolute;
     top: 50%;
-    left: 50%; 
+    left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.navigation {
+.navigation{
     position: absolute;
     bottom: 20px;
     left: 50%;
-    transform:  translate(-50%);
+    transform: translate(-50%);
     display: flex;
-
-
 }
 
 .bar{
-
     width: 70px;
     height: 17px;
     border-radius: 5px;
     cursor: pointer;
-    border: 2px solid rgb(255, 255, 255);
+    border: 2px solid #fd0000;
     transition: .6s;
 }
 
-.bar:hover {
-
-    background-color: red; /* passa o mouse sobre ele */
+.bar:hover{
+    background-color: #c70606;/*cor com mouse sobre*/
 }
-input {
+input{
     display: none;
 }
 
@@ -51,17 +47,19 @@ input {
     height: 100%;
 }
 
-.slide img {
+.slide{
+    width: 20%;
+    transition: .6s;
+}
 
+.slide img{
     width: 100%;
     height: 100%;
 }
 
-#slide1:checked ~ .s1 {
-margin-left: 0%;
-
+#slide1:checked ~ .s1{
+    margin-left: 0;
 }
-
 #slide2:checked ~ .s1{
     margin-left: -20%;
     
